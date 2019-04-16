@@ -4,12 +4,20 @@
              xmlns:local="clr-namespace:MemoryGame"
              x:Class="MemoryGame.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-        <Grid x:Name="gdCards" Background="#AAFFFFFF"></Grid>
+
+    <StackLayout  x:Name="gameStack" Orientation="Vertical" Spacing="20">
+        
+        <Grid x:Name="gameGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+        </Grid>
+        
     </StackLayout>
-    
+
 </ContentPage>
