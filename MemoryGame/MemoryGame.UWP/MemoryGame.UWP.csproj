@@ -104,6 +104,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Animals\animal1.png" />
+    <Content Include="Animals\lemur.png" />
+    <Content Include="Animals\lion.png" />
+    <Content Include="Animals\panda.png" />
+    <Content Include="Animals\penguin.png" />
+    <Content Include="Animals\raccoon.png" />
+    <Content Include="Animals\sea-lion.png" />
+    <Content Include="Animals\snow-leopard.png" />
+    <Content Include="Animals\tiger.png" />
     <Content Include="Assets\animal1.png" />
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-200.png" />
@@ -153,6 +161,11 @@
       <Project>{B6A22AC6-01A6-4C62-A356-B09AF5D5D7A4}</Project>
       <Name>MemoryGame</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Animals\animals.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

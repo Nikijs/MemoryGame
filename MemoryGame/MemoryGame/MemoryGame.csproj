@@ -10,6 +10,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Animals\animal1.png" />
+    <None Remove="Animals\lemur.jpg" />
+    <None Remove="Animals\lion.jpg" />
+    <None Remove="Animals\panda.jpg" />
+    <None Remove="Animals\penguin.jpg" />
+    <None Remove="Animals\raccoon.jpg" />
+    <None Remove="Animals\sea-lion.jpg" />
+    <None Remove="Animals\snow-leopard.jpg" />
+    <None Remove="Animals\tiger.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Animals\animal1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
   </ItemGroup>
 </Project>
