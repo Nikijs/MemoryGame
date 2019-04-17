@@ -1,13 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Xamarin.Forms;
 
 namespace MemoryGame
 {
-    class AnimalObject
+    public class AnimalObject
     {
-        public int id { get; set; }
-        public string filename { get; set; }
+       
+
+        public AnimalObject(Image image, string name)
+        {
+            Image = image;
+            Name = name;
+        }
+
+        public string Name { get; set; }
+        public Image Image { get; set; }
 
     }
 }

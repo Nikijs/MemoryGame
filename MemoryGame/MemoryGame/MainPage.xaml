@@ -5,9 +5,9 @@
              x:Class="MemoryGame.MainPage">
 
 
-    <StackLayout  x:Name="gameStack" Orientation="Vertical" Spacing="50">
+    <StackLayout  x:Name="gameStack" Orientation="Vertical" Spacing="50" >
 
-        <Grid x:Name="gameGrid">
+        <Grid x:Name="gameGrid" HorizontalOptions="Center" ColumnSpacing="15" RowSpacing="20">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
@@ -17,8 +17,8 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
         </Grid>
-        <StackLayout>
-            <Label x:Name="labelVar" Text="Timer: " TextDecorations="Underline" />
+        <StackLayout x:Name="stackText" Orientation="Vertical" >
+            <Label x:Name="labelVar" Text="" TextDecorations="Underline" />
         </StackLayout>
     </StackLayout>
 
