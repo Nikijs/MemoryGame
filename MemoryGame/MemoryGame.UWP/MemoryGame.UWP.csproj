@@ -104,6 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Animals\animal1.png" />
+    <Content Include="Animals\index.png" />
     <Content Include="Animals\lemur.png" />
     <Content Include="Animals\lion.png" />
     <Content Include="Animals\panda.png" />
